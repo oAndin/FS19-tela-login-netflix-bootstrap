@@ -10,6 +10,7 @@ main img#logo {
 
 main #entrar {
     color: #fff;
+    font-size: 32px;
 }
 
 main div.container input.btn {
@@ -17,8 +18,10 @@ main div.container input.btn {
     background-color: #e50914;
 }
 
-main div.container div.form-check {
-    display: flex;justify-content: space-around;
+main div.container div#lado-lado {
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
 }
 
 main div.container div.form-check input.form-check-input {
