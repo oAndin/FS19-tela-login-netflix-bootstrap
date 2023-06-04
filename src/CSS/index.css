@@ -13,19 +13,31 @@ main #entrar {
     font-size: 32px;
 }
 
-main div.container input.btn {
+main div.container input#email{
+    width: 100%;
+}
+
+main div.container input#password {
+    width: 100%;
+    
+}
+
+main div.container input#entrar {
+    width: 90%;
     color: #fff;
     background-color: #e50914;
 }
 
 main div.container div#lado-lado {
     display: flex;
-    align-items: center;    
-    justify-content: space-around;
+}
+
+main div.container div#novo {
+    display: flex;
 }
 
 main div.container div.form-check input.form-check-input {
-    color: #000;    
+    color: #000;
 }
 main div.container div.form-check a p {
     color: #202020;
