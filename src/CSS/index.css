@@ -1,0 +1,9 @@
+main {
+    position: relative;
+}
+main div.container img {
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    width: 20%;
+}
