@@ -89,13 +89,15 @@ main footer #containers a {
     color: #a4a4a4;
 }
 
-main footer #language {
-    
-}
 main footer #btnLanguage {
     height: 48px;
+    background-color: #000000 !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 2px !important;
+}
+
+main footer #language ul {
+    background-color: #202020;
 }
