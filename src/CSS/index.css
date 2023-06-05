@@ -77,6 +77,10 @@ main div.container #reCap {
     color: #a4a4a4;
 }
 
+main footer {
+    background-color: #000;
+}
+
 main footer #telefone {
     color: #a4a4a4;
 }
@@ -100,4 +104,53 @@ main footer #btnLanguage {
 
 main footer #language ul {
     background-color: #202020;
+}
+
+/* Começo do responsivo */
+
+@media (min-width: 740px) {
+    body main {
+        height: 100vh;
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/529648c5-e595-4746-af3f-fab3106e3146/BR-pt-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        display: flex;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body main div.imgContainer {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    body main div.imgContainer img {
+        width: 25% !important;
+        margin: 2rem !important;
+    }
+
+    body main footer {
+        width: 100%;
+        background-color: #000000;
+        opacity: 90%;
+    }
+    
+    body main #mainContainer input#email {
+        opacity: 100%;
+    }
+
+    body main #mainContainer input#password {
+        opacity: 100%;
+    }
+    
+    body main #mainContainer {
+        padding: 3rem;
+        max-width: 50%;
+        background-color: #000000;
+        opacity: 90%;
+    }
+    
+    
 }
