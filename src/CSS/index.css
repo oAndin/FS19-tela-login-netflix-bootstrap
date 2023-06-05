@@ -15,21 +15,26 @@ main #entrar {
 
 main div.container input#email{
     width: 100%;
+    height: 48px;
+    background-color: #383838;
 }
 
 main div.container input#password {
     width: 100%;
-    
+    height: 48px;
+    background-color: #383838;
 }
 
-main div.container input#entrar {
-    width: 90%;
+main div.container button#btnEntrar {
+    width: 96%;
+    height: 48px;
     color: #fff;
     background-color: #e50914;
 }
 
 main div.container div#lado-lado {
     display: flex;
+    justify-content: space-around;
 }
 
 main div.container div#novo {
@@ -41,5 +46,19 @@ main div.container div.form-check input.form-check-input {
 }
 main div.container div.form-check a p {
     color: #202020;
-    
+}
+
+main div.container label#lembre{
+    color: #a4a4a4;
+}
+main div.container #ajuda{
+    color: #a4a4a4;
+}
+
+main div.container #novoAqui {
+    color: #a4a4a4;
+}
+
+main div.container #assine {
+    color: #fff;
 }

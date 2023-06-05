@@ -14,38 +14,41 @@
 
 <body>
     <main>
-        <img src="./src/Images/Logonetflix.png" id="logo" class="img-fluid mt-3 ms-2" alt="Netflix logo">
-        <div class="container mt-3 border border-warning">
-            <h1 id="entrar" class="ms-2">Entrar</h1>
+        <img src="./src/Images/Logonetflix.png" id="logo" class="img-fluid mt-3 ms-2 mb-1" alt="Netflix logo">
+        <div class="container mt-4 border border-warning">
+            <h1 id="entrar" class="ms-2 mb-4">Entrar</h1>
             <div class="mt-2 me-2 mb-3 ms-2">
-                <input type="email" class="bg-dark fw-light" name="email" id="email"
-                    aria-describedby="emailHelpId" placeholder="Email ou número de telefone">
+                <input type="email" class="fw-light rounded p-3 border-0" name="email" id="email" aria-describedby="emailHelpId"
+                    placeholder="Email ou número de telefone">
             </div>
             <div class="mt-3 me-2 mb-3 ms-2">
-                <input type="password" class="bg-dark" name="password" id="password" placeholder="Senha">
+                <input type="password" class="fw-light rounded p-3 border-0" name="password" id="password" placeholder="Senha">
             </div>
-            <input name="entrar" id="entrar" class="btn m-2 w-100" type="submit" value="Entrar">
-            <div id="lado-lado" class="form-check me-2 ms-2 fs-3 border border-warning">
-
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label fs-6 fw-light align-baseline" for="flexCheckDefault">
-                    Lembre-se de mim
-                </label>
+            <button type="button" id="btnEntrar" class="btn mt-4 m-2 ">Entrar</button>
+            <div id="lado-lado" class="form-check m-2 d-flex justify-content-between align-baseline border-0">
+                <div id="check-lembre " class="border-warning">
+                    <input class="form-check-input bg-dark border-0" type="checkbox" value="" id="flexCheckDefault">
+                    <label id="lembre" class="form-check-label fw-light align-baseline" for="flexCheckDefault">
+                        Lembre-se de mim
+                    </label>
+                </div>
 
                 <a href="#" target="_blank" class="text-decoration-none align-baseline">
-                    <p class="fw-light fs-6">
+                    <p id="ajuda" class="fw-light fs-6">
                         Precisa de ajuda?
                     </p>
                 </a>
             </div>
 
-            <div id="novo" class="mt-5 ms-2 fw-light">
-                <h3 class="">
+            <div id="novo" class="mt-2 ms-2 fw-light">
+                <p id="novoAqui" class="">
                     Novo por aqui?
-                </h3>
-                <h3 class="">
-                    Assine agora.
-                </h3>
+                </p>
+                <a href="#" class="text-decoration-none" target="_blank">
+                    <p class="ps-1" id="assine" >
+                        Assine agora.
+                    </p>
+            </a>
             </div>
         </div>
     </main>
