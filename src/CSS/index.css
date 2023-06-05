@@ -88,3 +88,14 @@ main footer #containers {
 main footer #containers a {
     color: #a4a4a4;
 }
+
+main footer #language {
+    
+}
+main footer #btnLanguage {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px !important;
+}
