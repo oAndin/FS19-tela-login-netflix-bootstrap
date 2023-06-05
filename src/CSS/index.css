@@ -76,3 +76,15 @@ main div.container #reCap {
     font-size: small;
     color: #a4a4a4;
 }
+
+main footer #telefone {
+    color: #a4a4a4;
+}
+main footer #containers {
+    font-size: small;
+} 
+
+
+main footer #containers a {
+    color: #a4a4a4;
+}
